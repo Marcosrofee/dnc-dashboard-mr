@@ -1,5 +1,7 @@
+
 import styled from 'styled-components'
 import { ButtonProps } from '@/types'
+
 import { pxToRem } from '@/utils'
 
 export const StyledButton = styled.button<ButtonProps>`
@@ -8,11 +10,6 @@ export const StyledButton = styled.button<ButtonProps>`
   box-sizing: border-box;
   cursor: pointer;
   font-size: ${pxToRem(16)};
-  font-weigth: bold;
-  height: ${pxToRem(50)};
-  padding: 0 ${pxToRem(50)};
-  transition:
-    blackground-color 0,
     3s;
   width: 100%;
 
@@ -37,6 +34,7 @@ export const StyledButton = styled.button<ButtonProps>`
     color: ${(props) => props.theme.buttons.alert};
     height: 0;
     padding: 0;
+
     &:hover {
       color: ${(props) => props.theme.buttons.alertHover};
     }
