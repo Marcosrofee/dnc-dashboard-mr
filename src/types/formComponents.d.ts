@@ -5,12 +5,7 @@ export type MessageProps = {
   msg: string
   type: 'error' | 'success'
 }
-
-
-export interface FormComponentProps {
-
 export interface FormComponentPrpos {
-
   inputs: InputProps[]
   buttons: ButtonProps[]
   message?: MessageProps
