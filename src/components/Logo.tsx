@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import { pxToRem } from '../utils'
 
 export const Logo = styled.figure<{ height: number; width: number }>`
@@ -8,4 +9,3 @@ export const Logo = styled.figure<{ height: number; width: number }>`
   width: ${(props) => pxToRem(props.width)};
   padding: 0;
   margin: 0;
-`

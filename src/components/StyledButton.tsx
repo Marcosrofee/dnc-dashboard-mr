@@ -1,5 +1,7 @@
-import { ButtonProps } from '@/types'
+
 import styled from 'styled-components'
+import { ButtonProps } from '@/types'
+
 import { pxToRem } from '@/utils'
 
 export const StyledButton = styled.button<ButtonProps>`
@@ -8,11 +10,6 @@ export const StyledButton = styled.button<ButtonProps>`
   box-sizing: border-box;
   cursor: pointer;
   font-size: ${pxToRem(16)};
-  font-weight: blod;
-  height: ${pxToRem(50)};
-  padding: 0 ${pxToRem(16)};
-  transition:
-    background-color 0,
     3s;
   width: 100%;
 
