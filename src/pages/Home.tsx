@@ -1,6 +1,9 @@
+
 import { AvatarList, CardComponent, Header } from '@/components'
 import { Container } from '@mui/material'
 import { currencyConverter } from '@/utils'
+
+
 
 function Home() {
   const mockListData = [
@@ -23,6 +26,7 @@ function Home() {
 
   return (
     <>
+
       <Header />
       <Container maxWidth="lg">
         <CardComponent>CARD</CardComponent>
@@ -30,6 +34,7 @@ function Home() {
           <AvatarList listData={mockListData} />
         </CardComponent>
       </Container>
+
       <h1>Home</h1>
     </>
   )
