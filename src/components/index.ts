@@ -1,5 +1,7 @@
 export { default as FormComponent } from './FormComponente'
 export { default as Header } from './Header'
+export { default as AvatarList } from './AvatarList'
+export * from './CardComponent'
 export * from './BannerImage'
 export * from './StyledButton'
 export * from './StyledInput'
